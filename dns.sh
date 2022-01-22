@@ -15,9 +15,10 @@ banner(){
 	echo "###################################"
 }
 
-if [ $# -eq 0 ]
+if [ $# -nq 2 ]
   then
     echo "You must supply target homie , "
+    exit
 fi
 
 
