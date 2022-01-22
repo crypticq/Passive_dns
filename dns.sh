@@ -7,12 +7,12 @@ file=$2
 banner(){
 
 
-	echo "###################################"
-	echo "      Subdomain enumoration        "
-	echo "      Coded By Eng Yazeed          "
-	echo "      Instagram @COMMPLICATED      " 
-	echo "      Usage dns.sh target.com      "                 
-	echo "###################################"
+	echo "####################################"
+	echo "      Subdomain enumoration         "
+	echo "      Coded By Eng Yazeed           "
+	echo "      Instagram @COMMPLICATED       " 
+	echo "Usage dns.sh target.com file to save"                 
+	echo "####################################"
 }
 
 if [ $# -nq 2 ]
